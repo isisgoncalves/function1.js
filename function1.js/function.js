@@ -3,6 +3,8 @@
 function calculo(a, b){
   return (a * b) / 100
 }
-let porcentagem =  calculo(10, 300)
+let a = 10
+let b = 300
+let porcentagem =  calculo(a, b)
 
-alert(porcentagem)
+alert(`${a}% de ${b} é igual a ${porcentagem}`)
